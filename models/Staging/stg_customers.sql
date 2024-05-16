@@ -1,3 +1,5 @@
+{{ config(schema='Staging') }}
+
 select
     id as customer_id,
     first_name,
