@@ -7,7 +7,7 @@
 
     {%- else -%}
 
-        {{ custom_schema_name | trim }}_{{ 'test' }}
+        {{ custom_schema_name | trim }}
 
     {%- endif -%}
 
