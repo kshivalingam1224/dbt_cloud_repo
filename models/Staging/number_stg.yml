@@ -1,3 +1,10 @@
+version: 2
+
+sources:
+  - name: numbers_raw # required
+    description: <markdown_string>
+    database: shaped-crossbar-422705-f1
+    schema: numbers_raw
 models:
   - name: number_stg
     columns:
