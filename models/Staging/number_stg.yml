@@ -1,0 +1,8 @@
+models:
+  - name: number_stg
+    columns:
+      - name: number1
+        tests:
+          - not_null
+          - unique
+           
