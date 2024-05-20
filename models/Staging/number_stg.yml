@@ -7,3 +7,10 @@ sources:
     tables:
       - name: numbers_alias
         identifier: numbers
+models:
+  - name: number_stg
+    columns:
+      - name: number1
+        tests:
+          - not_null
+          - unique
