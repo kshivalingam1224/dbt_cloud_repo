@@ -1,1 +1,1 @@
-select * from {{ref('number_stg')}} where number1>200
+select * from {{ref('number_stg')}} where number1>400
