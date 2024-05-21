@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: numbers_raw_alias
+    database: shaped-crossbar-422705-f1
+    schema: numbers_raw
+    tables:
+      - name: numbers_alias
+        identifier: numbers
+models:
+  - name: number_stg
+    columns:
+      - name: number1
+        tests:
+          - not_null
+          - unique
