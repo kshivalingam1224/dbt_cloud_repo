@@ -11,6 +11,6 @@ models:
   - name: number_stg
     columns:
       - name: number1
-        tests:
+        data_tests:
           - not_null
           - unique
