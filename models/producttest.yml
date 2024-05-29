@@ -1,5 +1,11 @@
 version: 2
 
+sources:
+  - name: thelook_ecommerce
+    database: bigquery-public-data
+    tables:
+      - name: products
+
 models:
   - name: products
     columns:
