@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: products
+    columns:
+      - name: id
+        tests:
+          - dbt_utils.not_constant
+          - dbt_utils.at_least_one:
+              group_by_columns: ['category']

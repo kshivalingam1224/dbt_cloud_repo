@@ -12,5 +12,8 @@ models:
     columns:
       - name: number1
         data_tests:
+          - dbt_utils.accepted_range:
+              min_value: 1
+              max_value: 300
           - not_null
           - unique
