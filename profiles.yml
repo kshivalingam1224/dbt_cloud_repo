@@ -1,0 +1,17 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      dataset: X_SCHEMA
+    prod:
+      type: bigquery
+      dataset: PROD
+    shiva:
+      type: bigquery
+      dataset: RAW
+      project: Shiva
+    sravan:
+      type: bigquery
+      dataset: RAW
+      project: Shravan
