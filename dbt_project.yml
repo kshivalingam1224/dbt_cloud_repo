@@ -38,9 +38,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   jaffle_shop:
     Staging:
-      +enabled: true
       +schema: testing_schema
-      number_stg:
-        +enabled: true
-        +materialized: table
-        +schema: staging
